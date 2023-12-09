@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python tools/train_net_da.py --config-file configs/SIGMA/sigma_res50_cityscapace_to_foggyiter45k.yaml
