@@ -184,5 +184,6 @@ python tools/test_net.py \
 #### If you want to look up the main contribution code of DSGMNet. 
 
 ```bash
-./r50_sigma_city2foggy_iter45k.s
+./r50_sigma_city2foggy_iter45k.sh
 ```
+#### If your gpu device is Tesla V100 (32G) and the virtual environment is the same as us. The training loss can be reproduce the same loss and ACC exactly [link](https://www.cityscapes-dataset.com/downloads/).
