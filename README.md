@@ -181,4 +181,8 @@ python tools/test_net.py \
 
 ## 3, Training
 
-#### If you want to look up the main contribution code of DSGMNet. It's easy to find it in GPM file[link](
+#### If you want to look up the main contribution code of DSGMNet. 
+
+```bash
+./r50_sigma_city2foggy_iter45k.s
+```
