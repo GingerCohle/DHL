@@ -1,4 +1,4 @@
-# This is the repo of DSGMNet, which contains the source code and visualization scripts.
+# This is the repo of DSGMHL, which contains the source code and visualization scripts.
 
 ## 1, Installation
 
