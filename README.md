@@ -4,15 +4,15 @@
 
 ### For 2080Ti (20+, 10+, Titan series) and Tesla V100 
 
-#### conda create -n DSGMNet  python==3.7 -y
+#### conda create -n DSGMHL  python==3.7 -y
 
-#### conda activate DSGMNet
+#### conda activate DSGMHL
 
 #### conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
 
-#### git clone  https://github.com/GingerCohle/DSGMNet.git
+#### git clone  https://github.com/GingerCohle/DSGMHL.git
 
-#### cd DSGMNet
+#### cd DSGMHL
 
 #### git clone https://github.com/cocodataset/cocoapi.git
 
