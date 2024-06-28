@@ -1,18 +1,18 @@
-# This is the repo of DSGMHL, which contains the source code and visualization scripts.
+# This is the repo of DHL, which contains the source code and visualization scripts.
 
 ## 1, Installation
 
 ### For 2080Ti (20+, 10+, Titan series) and Tesla V100 
 
-#### conda create -n DSGMHL  python==3.7 -y
+#### conda create -n DHL  python==3.7 -y
 
-#### conda activate DSGMHL
+#### conda activate DHL
 
 #### conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
 
-#### git clone  https://github.com/GingerCohle/DSGMHL.git
+#### git clone  https://github.com/GingerCohle/DHL.git
 
-#### cd DSGMHL
+#### cd DHL
 
 #### git clone https://github.com/cocodataset/cocoapi.git
 
@@ -181,9 +181,9 @@ python tools/test_net.py \
 
 ## 3, Training
 
-#### If you want to look up the main contribution code of DSGMNet. 
+#### If you want to look up the main contribution code of DNet. 
 
 ```bash
 ./r50_sigma_city2foggy_iter45k.sh
 ```
-#### If your gpu device is Tesla V100 (32G) and the virtual environment is the same as us. The training loss can be reproduce the same loss and ACC exactly [link](https://github.com/GingerCohle/DSGMNet/blob/main/log/City2Foggy_45.5_log.txt).
+#### If your gpu device is Tesla V100 (32G) and the virtual environment is the same as us. The training loss can be reproduce the same loss and ACC exactly [link](https://github.com/GingerCohle/DNet/blob/main/log/City2Foggy_45.5_log.txt).
